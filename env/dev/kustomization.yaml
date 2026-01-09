@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:442689862ddba4ed170ee3c1cf67dbd8962aba4411d4e6b7cc53adc578680971
+- digest: sha256:b255345d3d450299479f6c3269c0753166645e13d01a120df4d1cd2aae855052
   name: docker.io/hedgehoon/pacman-kikd
   newTag: 260109-latest
