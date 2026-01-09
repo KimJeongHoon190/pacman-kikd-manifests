@@ -1,2 +1,8 @@
-bases:
-  - ../../k8s/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../k8s/
+images:
+- digest: sha256:442689862ddba4ed170ee3c1cf67dbd8962aba4411d4e6b7cc53adc578680971
+  name: docker.io/hedgehoon/pacman-kikd
+  newTag: 260109-latest
